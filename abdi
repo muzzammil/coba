@@ -1,0 +1,20 @@
+class mahasiswa {
+    private int npm;
+    private String nama;
+    public mahasiswa(int n, String nm){
+      npm = n; nama = nm;
+      System.out.println("Constructor: "+npm+" "+nama);
+    }
+    public String cetak(){
+      return npm+" "+nama;
+    }
+}
+class matkul {
+  private String kode;
+  private String nama_mk;
+  private mhs peserta[];
+  private int jumlah;
+  public matkul(String k, String nm){
+    kode = k;nama_mk = nm;
+    System.out.println(Constructor: "+kode+" "+nama_mk);
+    peserta = new mhs(5);
